@@ -3,9 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>77 soluciones</title>
+    <title>77 Soluciones | En construcción</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Oswald:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --gris-fondo: #c0c0c0;
+        --azul-claro: #afdbf5;
+        --casi-blanco: #f8f9fa;
+        --azul-oscuro: #1b263b;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: var(--gris-fondo);
+        color: var(--azul-oscuro);
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .construction-card {
+        width: min(92vw, 560px);
+        padding: 2.5rem 2rem;
+        background: var(--casi-blanco);
+        border: 2px solid var(--azul-oscuro);
+        border-radius: 16px;
+        text-align: center;
+        box-shadow: 0 12px 24px rgba(27, 38, 59, 0.15);
+      }
+
+      .logo {
+        width: min(220px, 60%);
+        height: auto;
+        margin-bottom: 1.5rem;
+      }
+
+      h1 {
+        margin: 0;
+        font-family: "Oswald", sans-serif;
+        font-size: clamp(2rem, 5vw, 3rem);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      p {
+        margin: 1rem 0 0;
+        font-size: 1.05rem;
+        line-height: 1.6;
+      }
+
+      .badge {
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding: 0.45rem 0.9rem;
+        border-radius: 999px;
+        background: var(--azul-claro);
+        font-weight: 600;
+      }
+    </style>
   </head>
   <body>
-    <h1>77 soluciones</h1>
+    <main class="construction-card">
+      <img class="logo" src="img/logo.webp" alt="Logo de 77 Soluciones" />
+      <h1>En construcción</h1>
+      <p>
+        Estamos preparando algo grande para ti.<br />
+        Muy pronto esta web estará disponible.
+      </p>
+      <span class="badge">77 Soluciones</span>
+    </main>
   </body>
 </html>
