@@ -9,7 +9,8 @@
   padding: 10px 0;
   transition: all 0.5s;
   z-index: 997;
-  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-bottom: 1px solid
+    color-mix(in srgb, var(--default-color), transparent 90%);
 
   .logo {
     line-height: 1;
@@ -74,7 +75,7 @@
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: #5b5b5b;
+  --background-color: #afdbf5;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --nav-color: #ffffff;
@@ -91,6 +92,6 @@
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --background-color: #5b5b5b;
+  --background-color: #afdbf5;
   --nav-color: #ffffff;
 }
